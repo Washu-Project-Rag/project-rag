@@ -1,0 +1,23 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# ---- macOS ----
+.DS_Store
+
+# ---- Large data (DO NOT COMMIT) ----
+data/raw/wiki_dump/
+data/raw/wiki_extracted/
+data/raw/wiki_extracted_sample/
+data/processed/
+data/index/
+
+# Also ignore large archives
+*.bz2
+*.zip
+
+# ---- Optional ----
+*.log
+tools/
