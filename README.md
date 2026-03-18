@@ -10,7 +10,7 @@ we can reduce AI hallucinations and the need to retrain LLMs with new data.
 
 The dataset used is an English Wikipedia dataset dump snapshot retrieved from [this download link](https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2) and extracted and cleaned using [WikiExtractor](https://github.com/attardi/wikiextractor). It was then pre-processed using [RegEx](https://www.w3schools.com/python/python_regex.asp), filtered by specific keywords related to the "Computer Science" subject field to reduce the very large source dataset size and memory costs and saved as a `.jsonl` file.
 
-**Raw Data Description:**
+**Cleaned Data Description:**
 | Variable | Description |
 | --- | --- |
 | id | Unique identifier for a Wikipedia article|
@@ -19,15 +19,17 @@ The dataset used is an English Wikipedia dataset dump snapshot retrieved from [t
 | title | Title of the article |
 | text | All text located on the page, including subheadings and line breaks and excluding tables and images |
 
-**Cleaned Data Description:**
+**Corpus Data Description per chunk:**
 | Variable | Description |
 | --- | --- |
-| chunk_id | A unique, deterministic identifier for a chunk |
+| chunk_id | A unique, deterministic identifier for the chunk |
+| page_id | Wikipedia’s unique identifier for the article |
 | title | Title of the article |
 | section_path | A list representing the hierarchical section structure of the article |
 | paragraph_index | The index of the paragraph within the article |
 | text | Text contained within the chunk |
 | source | Origin of dataset |
+| revid | Article revision ID for the particular version of the article text |
 
 ### What questions do we expect the chatbot to answer?
 
