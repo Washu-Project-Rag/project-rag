@@ -31,14 +31,6 @@ The dataset used is an English Wikipedia dataset dump snapshot retrieved from [t
 | source | Origin of dataset |
 | revid | Article revision ID for the particular version of the article text |
 
-### What questions do we expect the chatbot to answer?
-
-1. (placeholder text)
-2. (placeholder text)
-3. (placeholder text)
-
-
-
 # Credits
 
 Project by Yasmine Huo & Tracy Ling.
