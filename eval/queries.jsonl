@@ -1,0 +1,30 @@
+{"id": "q001", "question": "What is the difference between a process and a thread?"}
+{"id": "q002", "question": "What is virtual memory, and why is it used in operating systems?"}
+{"id": "q003", "question": "What is a deadlock in an operating system?"}
+{"id": "q004", "question": "What is a database transaction?"}
+{"id": "q005", "question": "What does ACID mean in database systems?"}
+{"id": "q006", "question": "What is normalization in relational databases?"}
+{"id": "q007", "question": "What is an index in a database, and how does it improve query performance?"}
+{"id": "q008", "question": "What is a cache, and how is it used in computer systems?"}
+{"id": "q009", "question": "What is the TCP/IP model?"}
+{"id": "q010", "question": "What is the difference between symmetric and asymmetric encryption?"}
+{"id": "q011", "question": "What is the difference between TCP and UDP?"}
+{"id": "q012", "question": "How is a stack different from a queue?"}
+{"id": "q013", "question": "What is the difference between a compiler and an interpreter?"}
+{"id": "q014", "question": "How do relational databases differ from NoSQL databases?"}
+{"id": "q015", "question": "What is the difference between paging and segmentation?"}
+{"id": "q016", "question": "How does multithreading differ from multiprocessing?"}
+{"id": "q017", "question": "What is the difference between authentication and authorization?"}
+{"id": "q018", "question": "How does a binary search tree differ from a hash table?"}
+{"id": "q019", "question": "How does a binary search algorithm work?"}
+{"id": "q020", "question": "How does DNS resolution work step by step?"}
+{"id": "q021", "question": "How does a database index speed up lookups?"}
+{"id": "q022", "question": "How does context switching happen in an operating system?"}
+{"id": "q023", "question": "How does public-key encryption enable secure communication?"}
+{"id": "q024", "question": "How does a load balancer improve the reliability of distributed systems?"}
+{"id": "q025", "question": "Why can adding an index improve read performance but hurt write performance in a database?"}
+{"id": "q026", "question": "Why is deadlock more likely in concurrent systems with multiple shared resources?"}
+{"id": "q027", "question": "Why might UDP be preferred over TCP in real-time applications?"}
+{"id": "q028", "question": "How do caching and load balancing work together to improve web application performance?"}
+{"id": "q029", "question": "Why do distributed systems often trade off consistency, availability, and partition tolerance?"}
+{"id": "q030", "question": "In what situations would multithreading be more efficient than multiprocessing, and when would the opposite be true?"}
