@@ -29,6 +29,7 @@ The dataset used is an English Wikipedia dataset dump snapshot retrieved from [t
 | paragraph_index | The index of the paragraph within the article |
 | text | Text contained within the chunk |
 | source | Origin of dataset |
+| url | URL link of the specific Wikipedia article |
 | revid | Article revision ID for the particular version of the article text |
 
 # Credits
