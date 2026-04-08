@@ -4,7 +4,7 @@ from langchain_core.documents import Document
 import os
 import pandas as pd
 
-df = pd.read_json("data/processed/corpus_chunks.jsonl", lines=True)
+df = pd.read_json("data/processed/corpus_chunks_filtered.jsonl", lines=True)
 embeddings = OllamaEmbeddings(model="mxbai-embed-large")
 
 db_loc = "data/chroma_db"
