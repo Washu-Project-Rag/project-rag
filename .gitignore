@@ -14,11 +14,12 @@ data/raw/wiki_extracted/
 # Ignore indexes (can be regenerated)
 data/index/
 
-# Ignore processed outputs by default...
-data/processed/*
-# ...but allow committing the filtered corpus file (plain or gz)
-!data/processed/corpus_chunks.jsonl
-!data/processed/corpus_chunks.jsonl.gz
+# Ignore only selected large processed files
+data/processed/wiki_cs_articles.jsonl
+data/processed/corpus_chunks_filtered.jsonl
+data/processed/wiki_cs_articles_v2.jsonl
+data/processed/wiki_cs_articles_v3.jsonl
+
 
 # Ignore everything else under raw by default...
 data/raw/*

@@ -1,0 +1,203 @@
+Top matched terms in wiki_cs_articles.jsonl
+==================================================
+
+ide	2808478
+state	1717006
+list	1347568
+set	1240289
+event	1075355
+record	858806
+bit	766339
+class	738998
+field	685116
+tree	532018
+character	478683
+collection	267838
+reference	263519
+method	224860
+stream	219651
+object	204166
+data	190094
+sequence	153682
+statement	127993
+computer	124734
+user	109913
+handle	109026
+memory	90707
+closure	85810
+expression	81896
+string	80928
+internet	78150
+software	69586
+procedure	67108
+server	65830
+storage	62051
+domain	55576
+client	54581
+execution	50732
+heap	45146
+variable	43643
+declaration	43071
+download	42426
+byte	34949
+database	34502
+interface	29298
+artifact	28525
+java	25547
+stack	25391
+parameter	25049
+documentation	24596
+computing	22914
+algorithm	21924
+node	21915
+container	19994
+computation	19875
+inheritance	19740
+coding	19534
+matrix	19237
+iteration	18499
+upload	17639
+conditional	17019
+methodology	15667
+operating system	13474
+interpreter	13187
+peripheral	13162
+artificial intelligence	12872
+assertion	12746
+intellectual property	9623
+integer	8964
+cipher	8105
+benchmark	8060
+abstraction	7969
+programming language	7080
+pointer	6955
+computer program	6898
+prolog	6858
+syntax	6776
+kernel	6699
+python	6623
+robotics	6071
+compiler	5886
+identifier	5842
+user interface	5821
+bandwidth	5637
+computer scientist	5525
+source code	5152
+queue	5139
+machine learning	5071
+blacklist	4768
+invariant	4537
+wi-fi	4483
+concurrency	4170
+software development	4160
+loader	4005
+encryption	3845
+semantics	3502
+feasibility study	3162
+modem	2884
+data center	2825
+computer graphics	2824
+serialization	2801
+linker	2772
+computer network	2724
+ascii	2713
+cryptography	2437
+bioinformatics	2238
+router	2174
+precondition	2131
+number theory	2124
+data structure	2120
+software engineering	1988
+computer programming	1976
+dns	1945
+open-source software	1870
+big data	1830
+executable	1802
+daemon	1801
+emulator	1779
+data science	1778
+cognitive science	1749
+image processing	1668
+cloud computing	1659
+cyberspace	1656
+creative commons	1612
+game theory	1580
+graph theory	1579
+computer vision	1437
+csv	1370
+data type	1361
+debugging	1230
+computer security	1207
+virtual machine	1186
+booting	1175
+natural language processing	1115
+data mining	1105
+optical fiber	1049
+callback	1048
+software design	1037
+run time	1034
+input/output	1030
+digital data	1003
+computational model	998
+application programming interface	977
+mathematical logic	954
+relational database	942
+gigabyte	929
+recursion	893
+numerical analysis	893
+quantum computing	873
+numerical method	767
+r programming language	760
+distributed computing	751
+computer architecture	745
+computational biology	739
+application software	701
+digital signal processing	689
+subroutine	680
+concatenation	671
+cyberbullying	654
+central processing unit	650
+object-oriented programming	633
+integrated development environment	581
+bit rate	557
+hash function	511
+human-computer interaction	508
+radix	506
+search algorithm	496
+computational science	487
+functional programming	477
+parallel computing	465
+domain name system	434
+computational chemistry	426
+control flow	419
+computational complexity theory	417
+boolean algebra	358
+formal methods	350
+hard problem	347
+hash table	315
+coding theory	314
+disk storage	313
+binary number	312
+technical documentation	309
+software testing	307
+binary tree	304
+computational neuroscience	303
+linked list	270
+xhtml	269
+logic programming	264
+for loop	249
+type theory	240
+filename extension	237
+user interface design	229
+machine vision	229
+computational physics	212
+floating-point arithmetic	209
+user agent	207
+algorithm design	204
+intelligent agent	204
+object code	196
+computability theory	194
+agile software development	185
+automata theory	183
+big o notation	179
+exception handling	176

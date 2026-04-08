@@ -1,0 +1,66 @@
+Top matched core terms in wiki_cs_articles_v3.jsonl
+============================================================
+
+first::computer science	3125
+rest::algorithm	2548
+rest::computer science	2507
+rest::database	2147
+rest::operating system	1977
+first::database	1628
+first::programming language	1590
+rest::programming language	1576
+first::algorithm	1555
+first::operating system	1551
+rest::artificial intelligence	1518
+rest::source code	1442
+first::artificial intelligence	1395
+rest::compiler	1314
+rest::machine learning	1183
+first::machine learning	904
+title::algorithm	646
+first::source code	609
+title::database	550
+first::compiler	543
+rest::software engineering	507
+rest::data structure	500
+first::cryptography	458
+rest::computer vision	430
+rest::cryptography	420
+first::computer programming	404
+first::software engineering	395
+title::programming language	376
+first::computer graphics	317
+first::computer vision	310
+first::computer program	300
+rest::computer graphics	295
+rest::computer programming	263
+rest::computer program	258
+first::data structure	254
+rest::distributed computing	240
+title::computer science	224
+first::computer security	205
+first::distributed computing	189
+title::artificial intelligence	183
+rest::information retrieval	170
+rest::computer security	170
+title::operating system	154
+first::information retrieval	132
+rest::formal methods	124
+first::computer network	102
+rest::computer network	100
+title::cryptography	98
+first::formal methods	66
+title::software engineering	51
+title::computer graphics	50
+title::compiler	49
+title::computer programming	48
+title::machine learning	48
+title::computer security	34
+title::data structure	25
+title::information retrieval	25
+title::computer vision	22
+title::source code	19
+title::computer program	18
+title::distributed computing	17
+title::computer network	13
+title::formal methods	3

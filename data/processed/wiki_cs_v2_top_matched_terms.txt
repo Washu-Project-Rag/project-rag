@@ -1,0 +1,144 @@
+Top matched terms in wiki_cs_articles_v2.jsonl
+==================================================
+
+software	27305
+interface	13678
+computing	12932
+algorithm	12733
+computation	10596
+operating system	9057
+computer science	8481
+database	7997
+variable	7589
+parameter	6700
+programming language	6323
+node	6269
+java	6197
+artificial intelligence	4936
+user interface	4702
+matrix	4456
+stack	4019
+source code	4002
+computer scientist	3986
+computer program	3425
+machine learning	3410
+kernel	3328
+compiler	3163
+software development	3037
+syntax	2911
+python	2691
+bandwidth	2365
+iteration	2344
+encryption	2339
+peripheral	1887
+data structure	1879
+robotics	1830
+semantics	1813
+open-source software	1598
+pointer	1596
+cryptography	1596
+benchmark	1584
+executable	1522
+software engineering	1500
+computer network	1443
+interpreter	1392
+virtual machine	1330
+cipher	1328
+computer	1310
+router	1306
+computer programming	1283
+modem	1270
+ascii	1253
+wi-fi	1241
+queue	1223
+cloud computing	1218
+data type	1194
+computer graphics	1184
+bioinformatics	1109
+data center	1105
+emulator	1080
+computer vision	1072
+debugging	1005
+image processing	923
+relational database	894
+natural language processing	877
+data science	872
+application programming interface	846
+r programming language	819
+loader	814
+input/output	798
+dns	797
+software design	787
+graph theory	781
+subroutine	753
+data mining	738
+computer security	712
+distributed computing	668
+object-oriented programming	656
+recursion	648
+computer architecture	630
+application software	596
+computational model	593
+number theory	580
+quantum computing	570
+integrated development environment	559
+prolog	548
+numerical analysis	545
+computational biology	539
+daemon	525
+concurrency	498
+information retrieval	494
+booting	491
+gigabyte	464
+functional programming	460
+central processing unit	459
+game theory	458
+hash function	452
+parallel computing	440
+search algorithm	438
+mathematical logic	431
+numerical method	398
+computational complexity theory	394
+digital data	384
+creative commons	384
+linker	374
+run time	370
+human-computer interaction	360
+cyberspace	352
+computational science	345
+digital signal processing	344
+control flow	332
+csv	297
+hash table	288
+bit rate	287
+domain name system	286
+optical fiber	284
+serialization	283
+computational chemistry	274
+software testing	265
+linked list	262
+logic programming	253
+formal methods	247
+radix	222
+computational neuroscience	217
+callback	217
+user interface design	212
+object code	198
+binary number	187
+filename extension	187
+xhtml	186
+algorithm design	180
+floating-point arithmetic	180
+type theory	177
+boolean algebra	171
+exception handling	169
+coding theory	163
+user agent	156
+computability theory	146
+automata theory	141
+for loop	137
+intelligent agent	133
+machine vision	131
+computational physics	131
+technical documentation	83
+feasibility study	62
