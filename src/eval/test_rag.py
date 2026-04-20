@@ -1,40 +1,17 @@
 import pandas as pd
-# from deepeval.metrics import (
-#     ContextualPrecisionMetric,
-#     ContextualRecallMetric,
-#     ContextualRelevancyMetric
-# )
-from deepeval.test_case import LLMTestCase
+from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 from deepeval import evaluate
 from deepeval.metrics import GEval
-from deepeval.test_case import LLMTestCaseParams
-# from ragas import EvaluationDataset
+from src.generation.answer import chain
+from src.retrieval.vector import retriever
 
 
 queries = pd.read_json("eval/queries.jsonl", lines=True)
 sample_queries = list(queries["question"])
 # print(sample_queries)
 
-answers = pd.read_json("eval/expected_answers.jsonl", lines=True)
+answers = pd.read_json("eval/answers.jsonl", lines=True)
 expected_answers = list(answers["answer"])
-
-###########################
-# RAGAS Implementation 
-###########################
-
-# dataset = []
-# for query,reference in zip(sample_queries,expected_answers):
-
-#     relevant_docs = rag.get_most_relevant_docs(query)
-#     response = rag.generate_answer(query, relevant_docs)
-#     dataset.append(
-#         {
-#             "user_input":query,
-#             "retrieved_contexts":relevant_docs,
-#             "response":response,
-#             "reference":reference
-#         }
-#     )
 
 ###########################
 # DeepEval Implementation 
@@ -42,36 +19,74 @@ expected_answers = list(answers["answer"])
 
 correctness_metric = GEval(
     name="Correctness",
-    criteria="Determine whether the actual output is factually correct based on the expected output.",
-    # NOTE: you can only provide either criteria or evaluation_steps, and not both
     evaluation_steps=[
-        "Check whether the facts in 'actual output' contradicts any facts in 'expected output'",
-        "You should also heavily penalize omission of detail",
-        "Vague language, or contradicting OPINIONS, are OK"
+        "Compare the chatbot answer to the expected answer.",
+        "Allow paraphrasing if technical meaning is preserved.",
+        "Penalize incorrect computer science facts.",
+        "Penalize missing key technical details.",
+        "Penalize contradictions heavily."
     ],
     evaluation_params=[LLMTestCaseParams.INPUT, LLMTestCaseParams.ACTUAL_OUTPUT, LLMTestCaseParams.EXPECTED_OUTPUT],
 )
 
-faithfulness = GEval(
+faithfulness_metric = GEval(
     name="Faithfulness",
     evaluation_steps=[
-        "Extract medical claims or diagnoses from the actual output.",
-        "Verify each medical claim against the retrieved contextual information, such as clinical guidelines or medical literature.",
-        "Identify any contradictions or unsupported medical claims that could lead to misdiagnosis.",
-        "Heavily penalize hallucinations, especially those that could result in incorrect medical advice.",
-        "Provide reasons for the faithfulness score, emphasizing the importance of clinical accuracy and patient safety."
+        "Extract factual claims from the chatbot response.",
+        "Check whether every claim is supported by the retrieved Wikipedia context.",
+        "Claims may include definitions, algorithms, complexity classes, architectures, networking facts, data structures, programming languages, or historical CS facts.",
+        "Penalize hallucinated claims heavily.",
+        "Penalize contradictions with retrieved context heavily.",
+        "Reward answers that stay grounded only in retrieved context."
     ],
     evaluation_params=[LLMTestCaseParams.ACTUAL_OUTPUT, LLMTestCaseParams.RETRIEVAL_CONTEXT],
 )
 
-test_case = LLMTestCase(
-    input="The dog chased the cat up the tree, who ran up the tree?",
-    actual_output="It depends, some might consider the cat, while others might argue the dog.",
-    expected_output="The cat."
+context_precision_recall_metric = GEval(
+    name="Context Precision Recall",
+    evaluation_steps=[
+        "Determine whether retrieved context is relevant to the question.",
+        "Precision: penalize irrelevant passages or noisy retrieved chunks.",
+        "Recall: penalize if essential information needed for the expected answer is missing.",
+        "Reward context that is focused and sufficiently complete.",
+        "For technical questions, verify that required definitions, examples, formulas, or algorithm details are present."
+    ],
+    evaluation_params=[LLMTestCaseParams.INPUT, LLMTestCaseParams.RETRIEVAL_CONTEXT,LLMTestCaseParams.EXPECTED_OUTPUT],
 )
 
-# To run metric as a standalone
-# correctness_metric.measure(test_case)
-# print(correctness_metric.score, correctness_metric.reason)
+test_cases = []
 
-evaluate(test_cases=[test_case], metrics=[correctness_metric])
+for question, expected in zip(sample_queries, expected_answers):
+    # Retrieve docs
+    docs = retriever.invoke(question)
+
+    # Convert to plain text context
+    retrieval_context = [doc.page_content for doc in docs]
+
+    # Generate answer using RAG chain
+    actual_output = chain.invoke({
+        "articles": docs,
+        "question": question
+    })
+
+    test_case = LLMTestCase(
+        input=question,
+        actual_output=actual_output,
+        expected_output=expected,
+        retrieval_context=retrieval_context
+    )
+
+    test_cases.append(test_case)
+
+####################
+# Run Evaluation
+####################
+
+evaluate(
+    test_cases=test_cases,
+    metrics=[
+        correctness_metric,
+        faithfulness_metric,
+        context_precision_recall_metric
+    ]
+)
