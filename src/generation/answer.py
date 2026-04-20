@@ -9,7 +9,7 @@ You are an assistant which answers questions based on the Wikipedia Computer Sci
 articles provided to you. Use only this knowledge to answer the quesiton, 
 not your own internal knowledge. If you don't know the answer, say you don't know. 
 
-The knowledge: {articles}
+The source article(s): {articles}
 
 The question: {question}
 """

@@ -1,0 +1,31 @@
+{"id": "a001", "answer": ""}
+{"id": "a002", "answer": ""}
+{"id": "a003", "answer": ""}
+{"id": "a004", "answer": ""}
+{"id": "a005", "answer": ""}
+{"id": "a006", "answer": ""}
+{"id": "a007", "answer": ""}
+{"id": "a008", "answer": ""}
+{"id": "a009", "answer": ""}
+{"id": "a010", "answer": ""}
+{"id": "a011", "answer": ""}
+{"id": "a012", "answer": ""}
+{"id": "a013", "answer": ""}
+{"id": "a014", "answer": ""}
+{"id": "a015", "answer": ""}
+
+{"id": "q001", "question": "What is the difference between a process and a thread?"}
+{"id": "q002", "question": "What is virtual memory, and why is it used in operating systems?"}
+{"id": "q003", "question": "What is a deadlock in an operating system?"}
+{"id": "q004", "question": "What is a database transaction?"}
+{"id": "q005", "question": "What does ACID mean in database systems?"}
+{"id": "q006", "question": "What is normalization in relational databases?"}
+{"id": "q007", "question": "What is an index in a database, and how does it improve query performance?"}
+{"id": "q008", "question": "What is a cache, and how is it used in computer systems?"}
+{"id": "q009", "question": "What is the TCP/IP model?"}
+{"id": "q010", "question": "What is the difference between symmetric and asymmetric encryption?"}
+{"id": "q011", "question": "What is the difference between TCP and UDP?"}
+{"id": "q012", "question": "How is a stack different from a queue?"}
+{"id": "q013", "question": "What is the difference between a compiler and an interpreter?"}
+{"id": "q014", "question": "How do relational databases differ from NoSQL databases?"}
+{"id": "q015", "question": "What is the difference between paging and segmentation?"}
