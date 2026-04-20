@@ -19,6 +19,11 @@ expected_answers = list(answers["answer"])
 
 correctness_metric = GEval(
     name="Correctness",
+    criteria=(
+        "The answer must correctly match the expected answer in meaning, "
+        "including key computer science concepts, definitions, and relationships. "
+        "Paraphrasing is allowed only if the technical meaning is preserved without loss of important details."
+    ),
     evaluation_steps=[
         "Compare the chatbot answer to the expected answer.",
         "Allow paraphrasing if technical meaning is preserved.",
@@ -31,6 +36,10 @@ correctness_metric = GEval(
 
 faithfulness_metric = GEval(
     name="Faithfulness",
+    criteria=(
+        "The answer must be fully supported by the retrieved Wikipedia computer science context. "
+        "No external knowledge, assumptions, or hallucinated facts are allowed."
+    ),
     evaluation_steps=[
         "Extract factual claims from the chatbot response.",
         "Check whether every claim is supported by the retrieved Wikipedia context.",
@@ -44,6 +53,10 @@ faithfulness_metric = GEval(
 
 context_precision_recall_metric = GEval(
     name="Context Precision Recall",
+    criteria=(
+        "The retrieved context must be both relevant and sufficient to answer the question. "
+        "It should include necessary computer science concepts while avoiding irrelevant information."
+    ),
     evaluation_steps=[
         "Determine whether retrieved context is relevant to the question.",
         "Precision: penalize irrelevant passages or noisy retrieved chunks.",

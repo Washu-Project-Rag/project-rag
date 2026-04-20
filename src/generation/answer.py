@@ -16,13 +16,15 @@ The question: {question}
 prompt = ChatPromptTemplate.from_template(template)
 chain = prompt | model
 
-while True:
-    print("\n\n------------------------------")
-    question = input("Ask a question (or type 'exit' to quit): ")
-    print("\n\n------------------------------")
-    if question.lower() in ["exit", "quit"]:
-        break
-    
-    articles = retriever.invoke(question)
-    result = chain.invoke({"articles": articles, "question": question})
-    print(result)
+if __name__ == "__main__":
+    while True:
+        print("\n\n------------------------------")
+        question = input("Ask a question (or type 'exit' to quit): ")
+        print("\n\n------------------------------")
+
+        if question.lower() in ["exit", "quit"]:
+            break
+
+        articles = retriever.invoke(question)
+        result = chain.invoke({"articles": articles, "question": question})
+        print(result)
