@@ -1,0 +1,2040 @@
+[
+  {
+    "raw_term": "abstract data type",
+    "processed_tokens": [
+      "abstract",
+      "data",
+      "type"
+    ]
+  },
+  {
+    "raw_term": "abstract method",
+    "processed_tokens": [
+      "abstract",
+      "method"
+    ]
+  },
+  {
+    "raw_term": "abstraction",
+    "processed_tokens": [
+      "abstract"
+    ]
+  },
+  {
+    "raw_term": "agent architecture",
+    "processed_tokens": [
+      "agent",
+      "architectur"
+    ]
+  },
+  {
+    "raw_term": "agent-based model",
+    "processed_tokens": [
+      "agent",
+      "base",
+      "model"
+    ]
+  },
+  {
+    "raw_term": "aggregate function",
+    "processed_tokens": [
+      "aggreg",
+      "function"
+    ]
+  },
+  {
+    "raw_term": "agile software development",
+    "processed_tokens": [
+      "agil",
+      "softwar",
+      "develop"
+    ]
+  },
+  {
+    "raw_term": "algorithm",
+    "processed_tokens": [
+      "algorithm"
+    ]
+  },
+  {
+    "raw_term": "algorithm design",
+    "processed_tokens": [
+      "algorithm",
+      "design"
+    ]
+  },
+  {
+    "raw_term": "algorithmic efficiency",
+    "processed_tokens": [
+      "algorithm",
+      "effici"
+    ]
+  },
+  {
+    "raw_term": "american standard code for information interchange",
+    "processed_tokens": [
+      "american",
+      "standard",
+      "code",
+      "for",
+      "inform",
+      "interchang"
+    ]
+  },
+  {
+    "raw_term": "application programming interface",
+    "processed_tokens": [
+      "applic",
+      "program",
+      "interfac"
+    ]
+  },
+  {
+    "raw_term": "application software",
+    "processed_tokens": [
+      "applic",
+      "softwar"
+    ]
+  },
+  {
+    "raw_term": "array data structure",
+    "processed_tokens": [
+      "array",
+      "data",
+      "structur"
+    ]
+  },
+  {
+    "raw_term": "artifact",
+    "processed_tokens": [
+      "artifact"
+    ]
+  },
+  {
+    "raw_term": "artificial intelligence",
+    "processed_tokens": [
+      "artifici",
+      "intellig"
+    ]
+  },
+  {
+    "raw_term": "ascii",
+    "processed_tokens": [
+      "ascii"
+    ]
+  },
+  {
+    "raw_term": "assertion",
+    "processed_tokens": [
+      "assert"
+    ]
+  },
+  {
+    "raw_term": "associative array",
+    "processed_tokens": [
+      "associ",
+      "array"
+    ]
+  },
+  {
+    "raw_term": "automata theory",
+    "processed_tokens": [
+      "automata",
+      "theori"
+    ]
+  },
+  {
+    "raw_term": "automated reasoning",
+    "processed_tokens": [
+      "autom",
+      "reason"
+    ]
+  },
+  {
+    "raw_term": "bandwidth",
+    "processed_tokens": [
+      "bandwidth"
+    ]
+  },
+  {
+    "raw_term": "bayesian programming",
+    "processed_tokens": [
+      "bayesian",
+      "program"
+    ]
+  },
+  {
+    "raw_term": "benchmark",
+    "processed_tokens": [
+      "benchmark"
+    ]
+  },
+  {
+    "raw_term": "best, worst and average case",
+    "processed_tokens": [
+      "best",
+      "worst",
+      "and",
+      "averag",
+      "case"
+    ]
+  },
+  {
+    "raw_term": "big data",
+    "processed_tokens": [
+      "big",
+      "data"
+    ]
+  },
+  {
+    "raw_term": "big o notation",
+    "processed_tokens": [
+      "big",
+      "o",
+      "notat"
+    ]
+  },
+  {
+    "raw_term": "binary number",
+    "processed_tokens": [
+      "binari",
+      "number"
+    ]
+  },
+  {
+    "raw_term": "binary search algorithm",
+    "processed_tokens": [
+      "binari",
+      "search",
+      "algorithm"
+    ]
+  },
+  {
+    "raw_term": "binary tree",
+    "processed_tokens": [
+      "binari",
+      "tree"
+    ]
+  },
+  {
+    "raw_term": "bioinformatics",
+    "processed_tokens": [
+      "bioinformat"
+    ]
+  },
+  {
+    "raw_term": "bit",
+    "processed_tokens": [
+      "bit"
+    ]
+  },
+  {
+    "raw_term": "bit rate",
+    "processed_tokens": [
+      "bit",
+      "rate"
+    ]
+  },
+  {
+    "raw_term": "blacklist",
+    "processed_tokens": [
+      "blacklist"
+    ]
+  },
+  {
+    "raw_term": "bmp file format",
+    "processed_tokens": [
+      "bmp",
+      "file",
+      "format"
+    ]
+  },
+  {
+    "raw_term": "boolean data type",
+    "processed_tokens": [
+      "boolean",
+      "data",
+      "type"
+    ]
+  },
+  {
+    "raw_term": "boolean expression",
+    "processed_tokens": [
+      "boolean",
+      "express"
+    ]
+  },
+  {
+    "raw_term": "boolean algebra",
+    "processed_tokens": [
+      "boolean",
+      "algebra"
+    ]
+  },
+  {
+    "raw_term": "byte",
+    "processed_tokens": [
+      "byte"
+    ]
+  },
+  {
+    "raw_term": "booting",
+    "processed_tokens": [
+      "boot"
+    ]
+  },
+  {
+    "raw_term": "callback",
+    "processed_tokens": [
+      "callback"
+    ]
+  },
+  {
+    "raw_term": "central processing unit",
+    "processed_tokens": [
+      "central",
+      "process",
+      "unit"
+    ]
+  },
+  {
+    "raw_term": "character",
+    "processed_tokens": [
+      "charact"
+    ]
+  },
+  {
+    "raw_term": "ci/cd",
+    "processed_tokens": [
+      "ci",
+      "cd"
+    ]
+  },
+  {
+    "raw_term": "cipher",
+    "processed_tokens": [
+      "cipher"
+    ]
+  },
+  {
+    "raw_term": "class",
+    "processed_tokens": [
+      "class"
+    ]
+  },
+  {
+    "raw_term": "class-based programming",
+    "processed_tokens": [
+      "class",
+      "base",
+      "program"
+    ]
+  },
+  {
+    "raw_term": "client",
+    "processed_tokens": [
+      "client"
+    ]
+  },
+  {
+    "raw_term": "cleanroom software engineering",
+    "processed_tokens": [
+      "cleanroom",
+      "softwar",
+      "engin"
+    ]
+  },
+  {
+    "raw_term": "closure",
+    "processed_tokens": [
+      "closur"
+    ]
+  },
+  {
+    "raw_term": "cloud computing",
+    "processed_tokens": [
+      "cloud",
+      "comput"
+    ]
+  },
+  {
+    "raw_term": "code library",
+    "processed_tokens": [
+      "code",
+      "librari"
+    ]
+  },
+  {
+    "raw_term": "coding",
+    "processed_tokens": [
+      "code"
+    ]
+  },
+  {
+    "raw_term": "coding theory",
+    "processed_tokens": [
+      "code",
+      "theori"
+    ]
+  },
+  {
+    "raw_term": "cognitive science",
+    "processed_tokens": [
+      "cognit",
+      "scienc"
+    ]
+  },
+  {
+    "raw_term": "collection",
+    "processed_tokens": [
+      "collect"
+    ]
+  },
+  {
+    "raw_term": "comma-separated values",
+    "processed_tokens": [
+      "comma",
+      "separ",
+      "valu"
+    ]
+  },
+  {
+    "raw_term": "compiler",
+    "processed_tokens": [
+      "compil"
+    ]
+  },
+  {
+    "raw_term": "computability theory",
+    "processed_tokens": [
+      "comput",
+      "theori"
+    ]
+  },
+  {
+    "raw_term": "computation",
+    "processed_tokens": [
+      "comput"
+    ]
+  },
+  {
+    "raw_term": "computational biology",
+    "processed_tokens": [
+      "comput",
+      "biolog"
+    ]
+  },
+  {
+    "raw_term": "computational chemistry",
+    "processed_tokens": [
+      "comput",
+      "chemistri"
+    ]
+  },
+  {
+    "raw_term": "computational complexity theory",
+    "processed_tokens": [
+      "comput",
+      "complex",
+      "theori"
+    ]
+  },
+  {
+    "raw_term": "computational model",
+    "processed_tokens": [
+      "comput",
+      "model"
+    ]
+  },
+  {
+    "raw_term": "computational neuroscience",
+    "processed_tokens": [
+      "comput",
+      "neurosci"
+    ]
+  },
+  {
+    "raw_term": "computational physics",
+    "processed_tokens": [
+      "comput",
+      "physic"
+    ]
+  },
+  {
+    "raw_term": "computational science",
+    "processed_tokens": [
+      "comput",
+      "scienc"
+    ]
+  },
+  {
+    "raw_term": "computational steering",
+    "processed_tokens": [
+      "comput",
+      "steer"
+    ]
+  },
+  {
+    "raw_term": "computer",
+    "processed_tokens": [
+      "comput"
+    ]
+  },
+  {
+    "raw_term": "computer architecture",
+    "processed_tokens": [
+      "comput",
+      "architectur"
+    ]
+  },
+  {
+    "raw_term": "computer data storage",
+    "processed_tokens": [
+      "comput",
+      "data",
+      "storag"
+    ]
+  },
+  {
+    "raw_term": "computer ethics",
+    "processed_tokens": [
+      "comput",
+      "ethic"
+    ]
+  },
+  {
+    "raw_term": "computer graphics",
+    "processed_tokens": [
+      "comput",
+      "graphic"
+    ]
+  },
+  {
+    "raw_term": "computer network",
+    "processed_tokens": [
+      "comput",
+      "network"
+    ]
+  },
+  {
+    "raw_term": "computer program",
+    "processed_tokens": [
+      "comput",
+      "program"
+    ]
+  },
+  {
+    "raw_term": "computer programming",
+    "processed_tokens": [
+      "comput",
+      "program"
+    ]
+  },
+  {
+    "raw_term": "computer scientist",
+    "processed_tokens": [
+      "comput",
+      "scientist"
+    ]
+  },
+  {
+    "raw_term": "computer security",
+    "processed_tokens": [
+      "comput",
+      "secur"
+    ]
+  },
+  {
+    "raw_term": "computer vision",
+    "processed_tokens": [
+      "comput",
+      "vision"
+    ]
+  },
+  {
+    "raw_term": "computing",
+    "processed_tokens": [
+      "comput"
+    ]
+  },
+  {
+    "raw_term": "concatenation",
+    "processed_tokens": [
+      "concaten"
+    ]
+  },
+  {
+    "raw_term": "concurrency",
+    "processed_tokens": [
+      "concurr"
+    ]
+  },
+  {
+    "raw_term": "conditional",
+    "processed_tokens": [
+      "condit"
+    ]
+  },
+  {
+    "raw_term": "container",
+    "processed_tokens": [
+      "contain"
+    ]
+  },
+  {
+    "raw_term": "continuous delivery",
+    "processed_tokens": [
+      "continu",
+      "deliveri"
+    ]
+  },
+  {
+    "raw_term": "continuous deployment",
+    "processed_tokens": [
+      "continu",
+      "deploy"
+    ]
+  },
+  {
+    "raw_term": "continuous integration",
+    "processed_tokens": [
+      "continu",
+      "integr"
+    ]
+  },
+  {
+    "raw_term": "continuation-passing style",
+    "processed_tokens": [
+      "continu",
+      "pass",
+      "style"
+    ]
+  },
+  {
+    "raw_term": "control flow",
+    "processed_tokens": [
+      "control",
+      "flow"
+    ]
+  },
+  {
+    "raw_term": "creative commons",
+    "processed_tokens": [
+      "creativ",
+      "common"
+    ]
+  },
+  {
+    "raw_term": "cryptography",
+    "processed_tokens": [
+      "cryptographi"
+    ]
+  },
+  {
+    "raw_term": "csv",
+    "processed_tokens": [
+      "csv"
+    ]
+  },
+  {
+    "raw_term": "cyberbullying",
+    "processed_tokens": [
+      "cyberbulli"
+    ]
+  },
+  {
+    "raw_term": "cyberspace",
+    "processed_tokens": [
+      "cyberspac"
+    ]
+  },
+  {
+    "raw_term": "daemon",
+    "processed_tokens": [
+      "daemon"
+    ]
+  },
+  {
+    "raw_term": "data",
+    "processed_tokens": [
+      "data"
+    ]
+  },
+  {
+    "raw_term": "data center",
+    "processed_tokens": [
+      "data",
+      "center"
+    ]
+  },
+  {
+    "raw_term": "database",
+    "processed_tokens": [
+      "databas"
+    ]
+  },
+  {
+    "raw_term": "data mining",
+    "processed_tokens": [
+      "data",
+      "mine"
+    ]
+  },
+  {
+    "raw_term": "data science",
+    "processed_tokens": [
+      "data",
+      "scienc"
+    ]
+  },
+  {
+    "raw_term": "data structure",
+    "processed_tokens": [
+      "data",
+      "structur"
+    ]
+  },
+  {
+    "raw_term": "data type",
+    "processed_tokens": [
+      "data",
+      "type"
+    ]
+  },
+  {
+    "raw_term": "debugging",
+    "processed_tokens": [
+      "debug"
+    ]
+  },
+  {
+    "raw_term": "declaration",
+    "processed_tokens": [
+      "declar"
+    ]
+  },
+  {
+    "raw_term": "digital data",
+    "processed_tokens": [
+      "digit",
+      "data"
+    ]
+  },
+  {
+    "raw_term": "digital signal processing",
+    "processed_tokens": [
+      "digit",
+      "signal",
+      "process"
+    ]
+  },
+  {
+    "raw_term": "discrete event simulation",
+    "processed_tokens": [
+      "discret",
+      "event",
+      "simul"
+    ]
+  },
+  {
+    "raw_term": "disk storage",
+    "processed_tokens": [
+      "disk",
+      "storag"
+    ]
+  },
+  {
+    "raw_term": "distributed computing",
+    "processed_tokens": [
+      "distribut",
+      "comput"
+    ]
+  },
+  {
+    "raw_term": "divide and conquer algorithm",
+    "processed_tokens": [
+      "divid",
+      "and",
+      "conquer",
+      "algorithm"
+    ]
+  },
+  {
+    "raw_term": "dns",
+    "processed_tokens": [
+      "dn"
+    ]
+  },
+  {
+    "raw_term": "documentation",
+    "processed_tokens": [
+      "document"
+    ]
+  },
+  {
+    "raw_term": "domain",
+    "processed_tokens": [
+      "domain"
+    ]
+  },
+  {
+    "raw_term": "domain name system",
+    "processed_tokens": [
+      "domain",
+      "name",
+      "system"
+    ]
+  },
+  {
+    "raw_term": "double-precision floating-point format",
+    "processed_tokens": [
+      "doubl",
+      "precis",
+      "float",
+      "point",
+      "format"
+    ]
+  },
+  {
+    "raw_term": "download",
+    "processed_tokens": [
+      "download"
+    ]
+  },
+  {
+    "raw_term": "edge device",
+    "processed_tokens": [
+      "edg",
+      "devic"
+    ]
+  },
+  {
+    "raw_term": "emulator",
+    "processed_tokens": [
+      "emul"
+    ]
+  },
+  {
+    "raw_term": "encryption",
+    "processed_tokens": [
+      "encrypt"
+    ]
+  },
+  {
+    "raw_term": "event",
+    "processed_tokens": [
+      "event"
+    ]
+  },
+  {
+    "raw_term": "event-driven programming",
+    "processed_tokens": [
+      "event",
+      "driven",
+      "program"
+    ]
+  },
+  {
+    "raw_term": "evolutionary computing",
+    "processed_tokens": [
+      "evolutionari",
+      "comput"
+    ]
+  },
+  {
+    "raw_term": "executable",
+    "processed_tokens": [
+      "execut"
+    ]
+  },
+  {
+    "raw_term": "execution",
+    "processed_tokens": [
+      "execut"
+    ]
+  },
+  {
+    "raw_term": "exception handling",
+    "processed_tokens": [
+      "except",
+      "handl"
+    ]
+  },
+  {
+    "raw_term": "expression",
+    "processed_tokens": [
+      "express"
+    ]
+  },
+  {
+    "raw_term": "fault-tolerant computer system",
+    "processed_tokens": [
+      "fault",
+      "toler",
+      "comput",
+      "system"
+    ]
+  },
+  {
+    "raw_term": "feasibility study",
+    "processed_tokens": [
+      "feasibl",
+      "studi"
+    ]
+  },
+  {
+    "raw_term": "field",
+    "processed_tokens": [
+      "field"
+    ]
+  },
+  {
+    "raw_term": "filename extension",
+    "processed_tokens": [
+      "filenam",
+      "extens"
+    ]
+  },
+  {
+    "raw_term": "filter (software)",
+    "processed_tokens": [
+      "filter",
+      "softwar"
+    ]
+  },
+  {
+    "raw_term": "floating-point arithmetic",
+    "processed_tokens": [
+      "float",
+      "point",
+      "arithmet"
+    ]
+  },
+  {
+    "raw_term": "for loop",
+    "processed_tokens": [
+      "for",
+      "loop"
+    ]
+  },
+  {
+    "raw_term": "formal methods",
+    "processed_tokens": [
+      "formal",
+      "method"
+    ]
+  },
+  {
+    "raw_term": "formal verification",
+    "processed_tokens": [
+      "formal",
+      "verif"
+    ]
+  },
+  {
+    "raw_term": "functional programming",
+    "processed_tokens": [
+      "function",
+      "program"
+    ]
+  },
+  {
+    "raw_term": "game theory",
+    "processed_tokens": [
+      "game",
+      "theori"
+    ]
+  },
+  {
+    "raw_term": "garbage in, garbage out",
+    "processed_tokens": [
+      "garbag",
+      "in",
+      "garbag",
+      "out"
+    ]
+  },
+  {
+    "raw_term": "graphics interchange format",
+    "processed_tokens": [
+      "graphic",
+      "interchang",
+      "format"
+    ]
+  },
+  {
+    "raw_term": "gigabyte",
+    "processed_tokens": [
+      "gigabyt"
+    ]
+  },
+  {
+    "raw_term": "global variable",
+    "processed_tokens": [
+      "global",
+      "variabl"
+    ]
+  },
+  {
+    "raw_term": "graph theory",
+    "processed_tokens": [
+      "graph",
+      "theori"
+    ]
+  },
+  {
+    "raw_term": "handle",
+    "processed_tokens": [
+      "handl"
+    ]
+  },
+  {
+    "raw_term": "hard problem",
+    "processed_tokens": [
+      "hard",
+      "problem"
+    ]
+  },
+  {
+    "raw_term": "hash function",
+    "processed_tokens": [
+      "hash",
+      "function"
+    ]
+  },
+  {
+    "raw_term": "hash table",
+    "processed_tokens": [
+      "hash",
+      "tabl"
+    ]
+  },
+  {
+    "raw_term": "heap",
+    "processed_tokens": [
+      "heap"
+    ]
+  },
+  {
+    "raw_term": "heapsort",
+    "processed_tokens": [
+      "heapsort"
+    ]
+  },
+  {
+    "raw_term": "human-computer interaction",
+    "processed_tokens": [
+      "human",
+      "comput",
+      "interact"
+    ]
+  },
+  {
+    "raw_term": "identifier",
+    "processed_tokens": [
+      "identifi"
+    ]
+  },
+  {
+    "raw_term": "ide",
+    "processed_tokens": [
+      "ide"
+    ]
+  },
+  {
+    "raw_term": "image processing",
+    "processed_tokens": [
+      "imag",
+      "process"
+    ]
+  },
+  {
+    "raw_term": "imperative programming",
+    "processed_tokens": [
+      "imper",
+      "program"
+    ]
+  },
+  {
+    "raw_term": "incremental build model",
+    "processed_tokens": [
+      "increment",
+      "build",
+      "model"
+    ]
+  },
+  {
+    "raw_term": "information space analysis",
+    "processed_tokens": [
+      "inform",
+      "space",
+      "analysi"
+    ]
+  },
+  {
+    "raw_term": "information visualization",
+    "processed_tokens": [
+      "inform",
+      "visual"
+    ]
+  },
+  {
+    "raw_term": "inheritance",
+    "processed_tokens": [
+      "inherit"
+    ]
+  },
+  {
+    "raw_term": "input/output",
+    "processed_tokens": [
+      "input",
+      "output"
+    ]
+  },
+  {
+    "raw_term": "insertion sort",
+    "processed_tokens": [
+      "insert",
+      "sort"
+    ]
+  },
+  {
+    "raw_term": "instruction cycle",
+    "processed_tokens": [
+      "instruct",
+      "cycl"
+    ]
+  },
+  {
+    "raw_term": "integer",
+    "processed_tokens": [
+      "integ"
+    ]
+  },
+  {
+    "raw_term": "integrated development environment",
+    "processed_tokens": [
+      "integr",
+      "develop",
+      "environ"
+    ]
+  },
+  {
+    "raw_term": "integration testing",
+    "processed_tokens": [
+      "integr",
+      "test"
+    ]
+  },
+  {
+    "raw_term": "intellectual property",
+    "processed_tokens": [
+      "intellectu",
+      "properti"
+    ]
+  },
+  {
+    "raw_term": "intelligent agent",
+    "processed_tokens": [
+      "intellig",
+      "agent"
+    ]
+  },
+  {
+    "raw_term": "interface",
+    "processed_tokens": [
+      "interfac"
+    ]
+  },
+  {
+    "raw_term": "internal documentation",
+    "processed_tokens": [
+      "intern",
+      "document"
+    ]
+  },
+  {
+    "raw_term": "internet",
+    "processed_tokens": [
+      "internet"
+    ]
+  },
+  {
+    "raw_term": "internet bot",
+    "processed_tokens": [
+      "internet",
+      "bot"
+    ]
+  },
+  {
+    "raw_term": "interpreter",
+    "processed_tokens": [
+      "interpret"
+    ]
+  },
+  {
+    "raw_term": "invariant",
+    "processed_tokens": [
+      "invari"
+    ]
+  },
+  {
+    "raw_term": "iteration",
+    "processed_tokens": [
+      "iter"
+    ]
+  },
+  {
+    "raw_term": "java",
+    "processed_tokens": [
+      "java"
+    ]
+  },
+  {
+    "raw_term": "kernel",
+    "processed_tokens": [
+      "kernel"
+    ]
+  },
+  {
+    "raw_term": "library (computing)",
+    "processed_tokens": [
+      "librari",
+      "comput"
+    ]
+  },
+  {
+    "raw_term": "linear search",
+    "processed_tokens": [
+      "linear",
+      "search"
+    ]
+  },
+  {
+    "raw_term": "linked list",
+    "processed_tokens": [
+      "link",
+      "list"
+    ]
+  },
+  {
+    "raw_term": "linker",
+    "processed_tokens": [
+      "linker"
+    ]
+  },
+  {
+    "raw_term": "list",
+    "processed_tokens": [
+      "list"
+    ]
+  },
+  {
+    "raw_term": "loader",
+    "processed_tokens": [
+      "loader"
+    ]
+  },
+  {
+    "raw_term": "logic error",
+    "processed_tokens": [
+      "logic",
+      "error"
+    ]
+  },
+  {
+    "raw_term": "logic programming",
+    "processed_tokens": [
+      "logic",
+      "program"
+    ]
+  },
+  {
+    "raw_term": "machine learning",
+    "processed_tokens": [
+      "machin",
+      "learn"
+    ]
+  },
+  {
+    "raw_term": "machine vision",
+    "processed_tokens": [
+      "machin",
+      "vision"
+    ]
+  },
+  {
+    "raw_term": "mathematical logic",
+    "processed_tokens": [
+      "mathemat",
+      "logic"
+    ]
+  },
+  {
+    "raw_term": "matrix",
+    "processed_tokens": [
+      "matrix"
+    ]
+  },
+  {
+    "raw_term": "memory",
+    "processed_tokens": [
+      "memori"
+    ]
+  },
+  {
+    "raw_term": "merge sort",
+    "processed_tokens": [
+      "merg",
+      "sort"
+    ]
+  },
+  {
+    "raw_term": "method",
+    "processed_tokens": [
+      "method"
+    ]
+  },
+  {
+    "raw_term": "methodology",
+    "processed_tokens": [
+      "methodolog"
+    ]
+  },
+  {
+    "raw_term": "modem",
+    "processed_tokens": [
+      "modem"
+    ]
+  },
+  {
+    "raw_term": "natural language processing",
+    "processed_tokens": [
+      "natur",
+      "languag",
+      "process"
+    ]
+  },
+  {
+    "raw_term": "node",
+    "processed_tokens": [
+      "node"
+    ]
+  },
+  {
+    "raw_term": "number theory",
+    "processed_tokens": [
+      "number",
+      "theori"
+    ]
+  },
+  {
+    "raw_term": "numerical analysis",
+    "processed_tokens": [
+      "numer",
+      "analysi"
+    ]
+  },
+  {
+    "raw_term": "numerical method",
+    "processed_tokens": [
+      "numer",
+      "method"
+    ]
+  },
+  {
+    "raw_term": "object",
+    "processed_tokens": [
+      "object"
+    ]
+  },
+  {
+    "raw_term": "object code",
+    "processed_tokens": [
+      "object",
+      "code"
+    ]
+  },
+  {
+    "raw_term": "object-oriented analysis and design",
+    "processed_tokens": [
+      "object",
+      "orient",
+      "analysi",
+      "and",
+      "design"
+    ]
+  },
+  {
+    "raw_term": "object-oriented programming",
+    "processed_tokens": [
+      "object",
+      "orient",
+      "program"
+    ]
+  },
+  {
+    "raw_term": "open-source software",
+    "processed_tokens": [
+      "open",
+      "sourc",
+      "softwar"
+    ]
+  },
+  {
+    "raw_term": "operating system",
+    "processed_tokens": [
+      "oper",
+      "system"
+    ]
+  },
+  {
+    "raw_term": "optical fiber",
+    "processed_tokens": [
+      "optic",
+      "fiber"
+    ]
+  },
+  {
+    "raw_term": "pair programming",
+    "processed_tokens": [
+      "pair",
+      "program"
+    ]
+  },
+  {
+    "raw_term": "parallel computing",
+    "processed_tokens": [
+      "parallel",
+      "comput"
+    ]
+  },
+  {
+    "raw_term": "parameter",
+    "processed_tokens": [
+      "paramet"
+    ]
+  },
+  {
+    "raw_term": "peripheral",
+    "processed_tokens": [
+      "peripher"
+    ]
+  },
+  {
+    "raw_term": "pointer",
+    "processed_tokens": [
+      "pointer"
+    ]
+  },
+  {
+    "raw_term": "postcondition",
+    "processed_tokens": [
+      "postcondit"
+    ]
+  },
+  {
+    "raw_term": "precondition",
+    "processed_tokens": [
+      "precondit"
+    ]
+  },
+  {
+    "raw_term": "primary storage",
+    "processed_tokens": [
+      "primari",
+      "storag"
+    ]
+  },
+  {
+    "raw_term": "primitive data type",
+    "processed_tokens": [
+      "primit",
+      "data",
+      "type"
+    ]
+  },
+  {
+    "raw_term": "priority queue",
+    "processed_tokens": [
+      "prioriti",
+      "queue"
+    ]
+  },
+  {
+    "raw_term": "procedural programming",
+    "processed_tokens": [
+      "procedur",
+      "program"
+    ]
+  },
+  {
+    "raw_term": "procedural generation",
+    "processed_tokens": [
+      "procedur",
+      "gener"
+    ]
+  },
+  {
+    "raw_term": "procedure",
+    "processed_tokens": [
+      "procedur"
+    ]
+  },
+  {
+    "raw_term": "program lifecycle phase",
+    "processed_tokens": [
+      "program",
+      "lifecycl",
+      "phase"
+    ]
+  },
+  {
+    "raw_term": "programming language",
+    "processed_tokens": [
+      "program",
+      "languag"
+    ]
+  },
+  {
+    "raw_term": "programming language implementation",
+    "processed_tokens": [
+      "program",
+      "languag",
+      "implement"
+    ]
+  },
+  {
+    "raw_term": "programming language theory",
+    "processed_tokens": [
+      "program",
+      "languag",
+      "theori"
+    ]
+  },
+  {
+    "raw_term": "prolog",
+    "processed_tokens": [
+      "prolog"
+    ]
+  },
+  {
+    "raw_term": "python",
+    "processed_tokens": [
+      "python"
+    ]
+  },
+  {
+    "raw_term": "quantum computing",
+    "processed_tokens": [
+      "quantum",
+      "comput"
+    ]
+  },
+  {
+    "raw_term": "queue",
+    "processed_tokens": [
+      "queue"
+    ]
+  },
+  {
+    "raw_term": "quicksort",
+    "processed_tokens": [
+      "quicksort"
+    ]
+  },
+  {
+    "raw_term": "r programming language",
+    "processed_tokens": [
+      "r",
+      "program",
+      "languag"
+    ]
+  },
+  {
+    "raw_term": "radix",
+    "processed_tokens": [
+      "radix"
+    ]
+  },
+  {
+    "raw_term": "record",
+    "processed_tokens": [
+      "record"
+    ]
+  },
+  {
+    "raw_term": "recursion",
+    "processed_tokens": [
+      "recurs"
+    ]
+  },
+  {
+    "raw_term": "reference",
+    "processed_tokens": [
+      "refer"
+    ]
+  },
+  {
+    "raw_term": "reference counting",
+    "processed_tokens": [
+      "refer",
+      "count"
+    ]
+  },
+  {
+    "raw_term": "regression testing",
+    "processed_tokens": [
+      "regress",
+      "test"
+    ]
+  },
+  {
+    "raw_term": "relational database",
+    "processed_tokens": [
+      "relat",
+      "databas"
+    ]
+  },
+  {
+    "raw_term": "reliability engineering",
+    "processed_tokens": [
+      "reliabl",
+      "engin"
+    ]
+  },
+  {
+    "raw_term": "requirements analysis",
+    "processed_tokens": [
+      "requir",
+      "analysi"
+    ]
+  },
+  {
+    "raw_term": "robotics",
+    "processed_tokens": [
+      "robot"
+    ]
+  },
+  {
+    "raw_term": "round-off error",
+    "processed_tokens": [
+      "round",
+      "off",
+      "error"
+    ]
+  },
+  {
+    "raw_term": "router",
+    "processed_tokens": [
+      "router"
+    ]
+  },
+  {
+    "raw_term": "routing table",
+    "processed_tokens": [
+      "rout",
+      "tabl"
+    ]
+  },
+  {
+    "raw_term": "run time",
+    "processed_tokens": [
+      "run",
+      "time"
+    ]
+  },
+  {
+    "raw_term": "run time error",
+    "processed_tokens": [
+      "run",
+      "time",
+      "error"
+    ]
+  },
+  {
+    "raw_term": "search algorithm",
+    "processed_tokens": [
+      "search",
+      "algorithm"
+    ]
+  },
+  {
+    "raw_term": "secondary storage",
+    "processed_tokens": [
+      "secondari",
+      "storag"
+    ]
+  },
+  {
+    "raw_term": "selection sort",
+    "processed_tokens": [
+      "select",
+      "sort"
+    ]
+  },
+  {
+    "raw_term": "semantics",
+    "processed_tokens": [
+      "semant"
+    ]
+  },
+  {
+    "raw_term": "sequence",
+    "processed_tokens": [
+      "sequenc"
+    ]
+  },
+  {
+    "raw_term": "serializability",
+    "processed_tokens": [
+      "serializ"
+    ]
+  },
+  {
+    "raw_term": "serialization",
+    "processed_tokens": [
+      "serial"
+    ]
+  },
+  {
+    "raw_term": "server",
+    "processed_tokens": [
+      "server"
+    ]
+  },
+  {
+    "raw_term": "service level agreement",
+    "processed_tokens": [
+      "servic",
+      "level",
+      "agreement"
+    ]
+  },
+  {
+    "raw_term": "set",
+    "processed_tokens": [
+      "set"
+    ]
+  },
+  {
+    "raw_term": "software",
+    "processed_tokens": [
+      "softwar"
+    ]
+  },
+  {
+    "raw_term": "software agent",
+    "processed_tokens": [
+      "softwar",
+      "agent"
+    ]
+  },
+  {
+    "raw_term": "software construction",
+    "processed_tokens": [
+      "softwar",
+      "construct"
+    ]
+  },
+  {
+    "raw_term": "software deployment",
+    "processed_tokens": [
+      "softwar",
+      "deploy"
+    ]
+  },
+  {
+    "raw_term": "software design",
+    "processed_tokens": [
+      "softwar",
+      "design"
+    ]
+  },
+  {
+    "raw_term": "software development",
+    "processed_tokens": [
+      "softwar",
+      "develop"
+    ]
+  },
+  {
+    "raw_term": "software development process",
+    "processed_tokens": [
+      "softwar",
+      "develop",
+      "process"
+    ]
+  },
+  {
+    "raw_term": "software engineering",
+    "processed_tokens": [
+      "softwar",
+      "engin"
+    ]
+  },
+  {
+    "raw_term": "software maintenance",
+    "processed_tokens": [
+      "softwar",
+      "mainten"
+    ]
+  },
+  {
+    "raw_term": "software prototyping",
+    "processed_tokens": [
+      "softwar",
+      "prototyp"
+    ]
+  },
+  {
+    "raw_term": "software requirements specification",
+    "processed_tokens": [
+      "softwar",
+      "requir",
+      "specif"
+    ]
+  },
+  {
+    "raw_term": "software testing",
+    "processed_tokens": [
+      "softwar",
+      "test"
+    ]
+  },
+  {
+    "raw_term": "sorting algorithm",
+    "processed_tokens": [
+      "sort",
+      "algorithm"
+    ]
+  },
+  {
+    "raw_term": "source code",
+    "processed_tokens": [
+      "sourc",
+      "code"
+    ]
+  },
+  {
+    "raw_term": "spiral model",
+    "processed_tokens": [
+      "spiral",
+      "model"
+    ]
+  },
+  {
+    "raw_term": "stack",
+    "processed_tokens": [
+      "stack"
+    ]
+  },
+  {
+    "raw_term": "state",
+    "processed_tokens": [
+      "state"
+    ]
+  },
+  {
+    "raw_term": "statement",
+    "processed_tokens": [
+      "statement"
+    ]
+  },
+  {
+    "raw_term": "storage",
+    "processed_tokens": [
+      "storag"
+    ]
+  },
+  {
+    "raw_term": "stream",
+    "processed_tokens": [
+      "stream"
+    ]
+  },
+  {
+    "raw_term": "string",
+    "processed_tokens": [
+      "string"
+    ]
+  },
+  {
+    "raw_term": "structured storage",
+    "processed_tokens": [
+      "structur",
+      "storag"
+    ]
+  },
+  {
+    "raw_term": "subroutine",
+    "processed_tokens": [
+      "subroutin"
+    ]
+  },
+  {
+    "raw_term": "symbolic computation",
+    "processed_tokens": [
+      "symbol",
+      "comput"
+    ]
+  },
+  {
+    "raw_term": "syntax",
+    "processed_tokens": [
+      "syntax"
+    ]
+  },
+  {
+    "raw_term": "syntax error",
+    "processed_tokens": [
+      "syntax",
+      "error"
+    ]
+  },
+  {
+    "raw_term": "system console",
+    "processed_tokens": [
+      "system",
+      "consol"
+    ]
+  },
+  {
+    "raw_term": "technical documentation",
+    "processed_tokens": [
+      "technic",
+      "document"
+    ]
+  },
+  {
+    "raw_term": "third-generation programming language",
+    "processed_tokens": [
+      "third",
+      "gener",
+      "program",
+      "languag"
+    ]
+  },
+  {
+    "raw_term": "top-down and bottom-up design",
+    "processed_tokens": [
+      "top",
+      "down",
+      "and",
+      "bottom",
+      "up",
+      "design"
+    ]
+  },
+  {
+    "raw_term": "tree",
+    "processed_tokens": [
+      "tree"
+    ]
+  },
+  {
+    "raw_term": "type theory",
+    "processed_tokens": [
+      "type",
+      "theori"
+    ]
+  },
+  {
+    "raw_term": "upload",
+    "processed_tokens": [
+      "upload"
+    ]
+  },
+  {
+    "raw_term": "uniform resource locator",
+    "processed_tokens": [
+      "uniform",
+      "resourc",
+      "locat"
+    ]
+  },
+  {
+    "raw_term": "user",
+    "processed_tokens": [
+      "user"
+    ]
+  },
+  {
+    "raw_term": "user agent",
+    "processed_tokens": [
+      "user",
+      "agent"
+    ]
+  },
+  {
+    "raw_term": "user interface",
+    "processed_tokens": [
+      "user",
+      "interfac"
+    ]
+  },
+  {
+    "raw_term": "user interface design",
+    "processed_tokens": [
+      "user",
+      "interfac",
+      "design"
+    ]
+  },
+  {
+    "raw_term": "variable",
+    "processed_tokens": [
+      "variabl"
+    ]
+  },
+  {
+    "raw_term": "virtual machine",
+    "processed_tokens": [
+      "virtual",
+      "machin"
+    ]
+  },
+  {
+    "raw_term": "v-model",
+    "processed_tokens": [
+      "v",
+      "model"
+    ]
+  },
+  {
+    "raw_term": "waterfall model",
+    "processed_tokens": [
+      "waterfal",
+      "model"
+    ]
+  },
+  {
+    "raw_term": "waveform audio file format",
+    "processed_tokens": [
+      "waveform",
+      "audio",
+      "file",
+      "format"
+    ]
+  },
+  {
+    "raw_term": "web crawler",
+    "processed_tokens": [
+      "web",
+      "crawler"
+    ]
+  },
+  {
+    "raw_term": "wi-fi",
+    "processed_tokens": [
+      "wi",
+      "fi"
+    ]
+  },
+  {
+    "raw_term": "xhtml",
+    "processed_tokens": [
+      "xhtml"
+    ]
+  }
+]
