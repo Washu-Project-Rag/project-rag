@@ -1,6 +1,5 @@
 import pandas as pd
 from deepeval.test_case import LLMTestCase, LLMTestCaseParams
-# from deepeval import evaluate
 from deepeval.metrics import GEval
 from src.generation.answer import chain
 from src.retrieval.vector import vector_store

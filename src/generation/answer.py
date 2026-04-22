@@ -1,97 +1,61 @@
 from langchain_ollama.llms import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
-from src.retrieval.vector import retriever
+from src.retrieval.vector import get_retriever
 
 model = OllamaLLM(model="qwen2.5:3b")
 
 template = """
 You are a highly reliable computer science specialist designed to answer questions strictly using the provided Wikipedia Computer Science articles.
 
----
-
-# 1. KNOWLEDGE SOURCE RULE
+# RULES
 - You MUST ONLY use the provided Wikipedia articles.
 - Do NOT use external knowledge or assumptions.
 - If the answer is not supported by the articles, respond EXACTLY:
+
   I don't know based on the provided context.
+  
+  ## Sources: 
+  None
+  
 - Some articles contain information related to other subjects such as Biology or Chemistry. You MUST IGNORE any information that is not relevant to Computer Science, even if it appears in the provided articles.
 - Any source used outside of the prrovided articles is considered a hallucination and will be penalized.
+- Answer in one concise paragraph.
+- Do not use any bullet points, lists, or markdown formatting. 
 
----
-
-# 2. ANSWER REQUIREMENTS
-- Be clear, concise, and technically correct.
-- Use only information found in the provided context.
-- Do NOT invent facts.
-- Prefer structured explanations when helpful (bullet points or steps).
-- Answer in one concise paragraph, do not use any bullet points, lists, or markdown formatting. Just one clear paragraph.
-
----
-
-# 3. PROVIDED WIKIPEDIA ARTICLES:
+# PROVIDED WIKIPEDIA ARTICLES:
 {articles}
-
----
 
 # QUESTION:
 {question}
 
----
+# OUTPUT FORMAT (STRICT ORDER)
 
-Now answer using ONLY the provided articles.
-
----
-
-# 3. CITATION RULES (VERY IMPORTANT)
-- Every factual claim MUST be supported by at least one source.
-- You MUST include source numbers [1], [2], etc. that appear in the context.
-- You MUST also include the exact URL from the cited article.
-- Do NOT fabricate or modify URLs.
-
----
-
-# 4. CRITICAL FORMATTING RULE (STRICT ORDER)
-
-Your response MUST follow this exact structure:
+Return exactly the following format, with no deviations:
 
 ## Answer:
-<your answer here>
+<answer paragraph>
 
 ## Sources:
-<your sources here>
+[1] <URL of source 1>
+[2] <URL of source 2>
+and so on, if more sources are used.
 
-Rules:
-- The FIRST line of your response MUST be "## Answer:"
-- Do NOT output ANY sources before the Answer section
-- Do NOT repeat sources inside the Answer section
-- The Sources section MUST appear only once at the end
+# SOURCES RULES (VERY STRICT)
 
----
+- Only include URLs that are explicitly used in the answer.
+- Each URL must appear ONLY ONCE.
+- Number sources sequentially: [1], [2], [3], ...
+- Do not include the word "None" if any URL is listed.
+- If no sources were used, write exactly:
 
-# 5. SOURCES FORMAT (MANDATORY)
+## Sources:
+None
 
-If you used any article, format like this ONLY AFTER the "## Sources:" section:
+- Otherwise, do NOT include the "None" line at all.
 
-[1] https://en.wikipedia.org/wiki/Process_(computing)
-[2] https://en.wikipedia.org/wiki/Thread_(computer_science)
-
-Rules:
-- Include ALL articles used to form the answer
-- Copy URLs EXACTLY from the context
-- Do NOT rewrite or shorten URLs
-
----
-
-# 6. WHEN NO SOURCES ARE USED
-
-Only output:
-Sources: None
-
-ONLY if the answer is:
-"I don't know based on the provided context."
-
----
+- Do not output anything after the Sources section.
 """
+
 
 prompt = ChatPromptTemplate.from_template(template)
 chain = prompt | model
@@ -113,22 +77,29 @@ def format_articles(docs):
     return "\n\n".join(formatted)
 
 
+def generate_answer(question, k=15):
+    retriever = get_retriever(k)
+    docs = retriever.invoke(question)
+    articles = format_articles(docs)
+
+    result = chain.invoke({
+        "articles": articles,
+        "question": question
+    })
+
+    return result
+
+
 if __name__ == "__main__":
+    retriever = get_retriever(k=15)
+    
     while True:
         print("\n\n----------------------------------------------------------------------------------------------------------------")
-        question = input("Ask a question (or type 'exit' to quit): ")
+        question = input("Ask a question (or type 'exit' or 'quit' to quit): ")
         print("\n\n----------------------------------------------------------------------------------------------------------------")
 
         if question.lower() in ["exit", "quit"]:
             break
 
-        docs = retriever.invoke(question)
-
-        articles = format_articles(docs)
-
-        result = chain.invoke({
-            "articles": articles,
-            "question": question
-        })
-
+        result = generate_answer(question, k=15)
         print(result)

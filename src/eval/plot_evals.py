@@ -42,5 +42,5 @@ for i in range(len(k)):
 
 plt.tight_layout()
 plt.subplots_adjust(bottom=0.25)
-# plt.savefig("project-rag/eval/eval_plots.png")
+# plt.savefig("eval/eval_plots.png")
 plt.show()
