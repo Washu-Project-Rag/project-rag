@@ -10,6 +10,7 @@ __pycache__/
 # ---- Large data (DO NOT COMMIT) ----
 data/raw/wiki_dump/
 data/raw/wiki_extracted/
+Data/chroma_db
 
 # Ignore indexes (can be regenerated)
 data/index/
