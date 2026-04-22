@@ -15,7 +15,7 @@ You are a highly reliable computer science specialist designed to answer questio
 - If the answer is not supported by the articles, respond EXACTLY:
   I don't know based on the provided context.
 - Some articles contain information related to other subjects such as Biology or Chemistry. You MUST IGNORE any information that is not relevant to Computer Science, even if it appears in the provided articles.
-- 
+- Any source used outside of the prrovided articles is considered a hallucination and will be penalized.
 
 ---
 
@@ -24,6 +24,21 @@ You are a highly reliable computer science specialist designed to answer questio
 - Use only information found in the provided context.
 - Do NOT invent facts.
 - Prefer structured explanations when helpful (bullet points or steps).
+- Answer in one concise paragraph, do not use any bullet points, lists, or markdown formatting. Just one clear paragraph.
+
+---
+
+# 3. PROVIDED WIKIPEDIA ARTICLES:
+{articles}
+
+---
+
+# QUESTION:
+{question}
+
+---
+
+Now answer using ONLY the provided articles.
 
 ---
 
@@ -76,18 +91,6 @@ ONLY if the answer is:
 "I don't know based on the provided context."
 
 ---
-
-# 7. PROVIDED WIKIPEDIA ARTICLES:
-{articles}
-
----
-
-# QUESTION:
-{question}
-
----
-
-Now answer using ONLY the provided articles.
 """
 
 prompt = ChatPromptTemplate.from_template(template)
@@ -112,9 +115,9 @@ def format_articles(docs):
 
 if __name__ == "__main__":
     while True:
-        print("\n\n------------------------------")
+        print("\n\n----------------------------------------------------------------------------------------------------------------")
         question = input("Ask a question (or type 'exit' to quit): ")
-        print("\n\n------------------------------")
+        print("\n\n----------------------------------------------------------------------------------------------------------------")
 
         if question.lower() in ["exit", "quit"]:
             break
