@@ -16,11 +16,10 @@ Data/chroma_db
 data/index/
 
 # Ignore only selected large processed files
-data/processed/wiki_cs_articles.jsonl
+data/processed/first_round/wiki_cs_articles.jsonl
 data/processed/corpus_chunks_filtered.jsonl
-data/processed/wiki_cs_articles_v2.jsonl
-data/processed/wiki_cs_articles_v3.jsonl
-
+data/processed/second_round/wiki_cs_articles_v2.jsonl
+data/processed/third_round/wiki_cs_articles_v3.jsonl
 
 # Ignore everything else under raw by default...
 data/raw/*
@@ -28,6 +27,10 @@ data/raw/*
 !data/raw/wiki_extracted_sample/
 !data/raw/wiki_extracted_sample/*
 
+# Ignore with token methods and results
+data/processed/with_token/
+src/ingest/filter_with_token/
+src/ingest/visulization_filtering.ipynb
 # Also ignore large archives
 *.bz2
 *.zip

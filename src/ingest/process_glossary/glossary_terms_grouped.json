@@ -1,0 +1,1199 @@
+{
+  "source": "https://en.wikipedia.org/wiki/Glossary_of_computer_science",
+  "count": 297,
+  "group_definitions": {
+    "core": "strong evidence of core CS content",
+    "related": "related to computing/software/AI but weaker evidence",
+    "weak": "too broad/ambiguous; cannot be used alone"
+  },
+  "terms": [
+    {
+      "term": "abstract data type",
+      "group": "related"
+    },
+    {
+      "term": "abstract method",
+      "group": "related"
+    },
+    {
+      "term": "abstraction",
+      "group": "related"
+    },
+    {
+      "term": "agent architecture",
+      "group": "related"
+    },
+    {
+      "term": "agent-based model",
+      "group": "related"
+    },
+    {
+      "term": "aggregate function",
+      "group": "related"
+    },
+    {
+      "term": "agile software development",
+      "group": "related"
+    },
+    {
+      "term": "algorithm",
+      "group": "core"
+    },
+    {
+      "term": "algorithm design",
+      "group": "core"
+    },
+    {
+      "term": "algorithmic efficiency",
+      "group": "core"
+    },
+    {
+      "term": "American Standard Code for Information Interchange",
+      "group": "weak"
+    },
+    {
+      "term": "application programming interface",
+      "group": "core"
+    },
+    {
+      "term": "application software",
+      "group": "core"
+    },
+    {
+      "term": "array data structure",
+      "group": "weak"
+    },
+    {
+      "term": "artifact",
+      "group": "related"
+    },
+    {
+      "term": "artificial intelligence",
+      "group": "core"
+    },
+    {
+      "term": "ASCII",
+      "group": "core"
+    },
+    {
+      "term": "assertion",
+      "group": "weak"
+    },
+    {
+      "term": "associative array",
+      "group": "related"
+    },
+    {
+      "term": "automata theory",
+      "group": "core"
+    },
+    {
+      "term": "automated reasoning",
+      "group": "related"
+    },
+    {
+      "term": "bandwidth",
+      "group": "core"
+    },
+    {
+      "term": "Bayesian programming",
+      "group": "weak"
+    },
+    {
+      "term": "benchmark",
+      "group": "related"
+    },
+    {
+      "term": "best, worst and average case",
+      "group": "weak"
+    },
+    {
+      "term": "big data",
+      "group": "related"
+    },
+    {
+      "term": "big O notation",
+      "group": "related"
+    },
+    {
+      "term": "binary number",
+      "group": "core"
+    },
+    {
+      "term": "binary search algorithm",
+      "group": "core"
+    },
+    {
+      "term": "binary tree",
+      "group": "related"
+    },
+    {
+      "term": "bioinformatics",
+      "group": "core"
+    },
+    {
+      "term": "bit",
+      "group": "weak"
+    },
+    {
+      "term": "bit rate",
+      "group": "core"
+    },
+    {
+      "term": "blacklist",
+      "group": "related"
+    },
+    {
+      "term": "BMP file format",
+      "group": "weak"
+    },
+    {
+      "term": "Boolean data type",
+      "group": "weak"
+    },
+    {
+      "term": "Boolean expression",
+      "group": "weak"
+    },
+    {
+      "term": "Boolean algebra",
+      "group": "core"
+    },
+    {
+      "term": "byte",
+      "group": "related"
+    },
+    {
+      "term": "booting",
+      "group": "core"
+    },
+    {
+      "term": "callback",
+      "group": "core"
+    },
+    {
+      "term": "central processing unit",
+      "group": "core"
+    },
+    {
+      "term": "character",
+      "group": "weak"
+    },
+    {
+      "term": "CI/CD",
+      "group": "core"
+    },
+    {
+      "term": "cipher",
+      "group": "core"
+    },
+    {
+      "term": "class",
+      "group": "weak"
+    },
+    {
+      "term": "class-based programming",
+      "group": "weak"
+    },
+    {
+      "term": "client",
+      "group": "weak"
+    },
+    {
+      "term": "cleanroom software engineering",
+      "group": "weak"
+    },
+    {
+      "term": "closure",
+      "group": "related"
+    },
+    {
+      "term": "cloud computing",
+      "group": "core"
+    },
+    {
+      "term": "code library",
+      "group": "related"
+    },
+    {
+      "term": "coding",
+      "group": "related"
+    },
+    {
+      "term": "coding theory",
+      "group": "core"
+    },
+    {
+      "term": "cognitive science",
+      "group": "related"
+    },
+    {
+      "term": "collection",
+      "group": "weak"
+    },
+    {
+      "term": "comma-separated values",
+      "group": "related"
+    },
+    {
+      "term": "compiler",
+      "group": "core"
+    },
+    {
+      "term": "computability theory",
+      "group": "core"
+    },
+    {
+      "term": "computation",
+      "group": "weak"
+    },
+    {
+      "term": "computational biology",
+      "group": "core"
+    },
+    {
+      "term": "computational chemistry",
+      "group": "core"
+    },
+    {
+      "term": "computational complexity theory",
+      "group": "core"
+    },
+    {
+      "term": "computational model",
+      "group": "core"
+    },
+    {
+      "term": "computational neuroscience",
+      "group": "core"
+    },
+    {
+      "term": "computational physics",
+      "group": "core"
+    },
+    {
+      "term": "computational science",
+      "group": "core"
+    },
+    {
+      "term": "computational steering",
+      "group": "weak"
+    },
+    {
+      "term": "computer",
+      "group": "related"
+    },
+    {
+      "term": "computer architecture",
+      "group": "core"
+    },
+    {
+      "term": "computer data storage",
+      "group": "core"
+    },
+    {
+      "term": "computer ethics",
+      "group": "core"
+    },
+    {
+      "term": "computer graphics",
+      "group": "core"
+    },
+    {
+      "term": "computer network",
+      "group": "core"
+    },
+    {
+      "term": "computer program",
+      "group": "core"
+    },
+    {
+      "term": "computer programming",
+      "group": "core"
+    },
+    {
+      "term": "computer scientist",
+      "group": "core"
+    },
+    {
+      "term": "computer security",
+      "group": "core"
+    },
+    {
+      "term": "computer vision",
+      "group": "core"
+    },
+    {
+      "term": "computing",
+      "group": "core"
+    },
+    {
+      "term": "concatenation",
+      "group": "related"
+    },
+    {
+      "term": "Concurrency",
+      "group": "core"
+    },
+    {
+      "term": "conditional",
+      "group": "weak"
+    },
+    {
+      "term": "container",
+      "group": "weak"
+    },
+    {
+      "term": "continuous delivery",
+      "group": "related"
+    },
+    {
+      "term": "continuous deployment",
+      "group": "related"
+    },
+    {
+      "term": "continuous integration",
+      "group": "related"
+    },
+    {
+      "term": "continuation-passing style",
+      "group": "weak"
+    },
+    {
+      "term": "control flow",
+      "group": "core"
+    },
+    {
+      "term": "Creative Commons",
+      "group": "related"
+    },
+    {
+      "term": "cryptography",
+      "group": "core"
+    },
+    {
+      "term": "CSV",
+      "group": "core"
+    },
+    {
+      "term": "cyberbullying",
+      "group": "weak"
+    },
+    {
+      "term": "cyberspace",
+      "group": "core"
+    },
+    {
+      "term": "daemon",
+      "group": "core"
+    },
+    {
+      "term": "Data",
+      "group": "weak"
+    },
+    {
+      "term": "data center",
+      "group": "core"
+    },
+    {
+      "term": "database",
+      "group": "core"
+    },
+    {
+      "term": "data mining",
+      "group": "core"
+    },
+    {
+      "term": "data science",
+      "group": "core"
+    },
+    {
+      "term": "data structure",
+      "group": "core"
+    },
+    {
+      "term": "data type",
+      "group": "core"
+    },
+    {
+      "term": "debugging",
+      "group": "core"
+    },
+    {
+      "term": "declaration",
+      "group": "related"
+    },
+    {
+      "term": "digital data",
+      "group": "core"
+    },
+    {
+      "term": "digital signal processing",
+      "group": "core"
+    },
+    {
+      "term": "discrete event simulation",
+      "group": "weak"
+    },
+    {
+      "term": "disk storage",
+      "group": "related"
+    },
+    {
+      "term": "distributed computing",
+      "group": "core"
+    },
+    {
+      "term": "divide and conquer algorithm",
+      "group": "related"
+    },
+    {
+      "term": "DNS",
+      "group": "core"
+    },
+    {
+      "term": "documentation",
+      "group": "related"
+    },
+    {
+      "term": "domain",
+      "group": "weak"
+    },
+    {
+      "term": "Domain Name System",
+      "group": "core"
+    },
+    {
+      "term": "double-precision floating-point format",
+      "group": "weak"
+    },
+    {
+      "term": "download",
+      "group": "related"
+    },
+    {
+      "term": "edge device",
+      "group": "core"
+    },
+    {
+      "term": "emulator",
+      "group": "core"
+    },
+    {
+      "term": "encryption",
+      "group": "core"
+    },
+    {
+      "term": "event",
+      "group": "weak"
+    },
+    {
+      "term": "event-driven programming",
+      "group": "core"
+    },
+    {
+      "term": "evolutionary computing",
+      "group": "related"
+    },
+    {
+      "term": "executable",
+      "group": "weak"
+    },
+    {
+      "term": "execution",
+      "group": "weak"
+    },
+    {
+      "term": "exception handling",
+      "group": "core"
+    },
+    {
+      "term": "expression",
+      "group": "weak"
+    },
+    {
+      "term": "fault-tolerant computer system",
+      "group": "core"
+    },
+    {
+      "term": "feasibility study",
+      "group": "related"
+    },
+    {
+      "term": "field",
+      "group": "weak"
+    },
+    {
+      "term": "filename extension",
+      "group": "core"
+    },
+    {
+      "term": "filter (software)",
+      "group": "core"
+    },
+    {
+      "term": "floating-point arithmetic",
+      "group": "core"
+    },
+    {
+      "term": "for loop",
+      "group": "core"
+    },
+    {
+      "term": "formal methods",
+      "group": "core"
+    },
+    {
+      "term": "formal verification",
+      "group": "core"
+    },
+    {
+      "term": "functional programming",
+      "group": "core"
+    },
+    {
+      "term": "game theory",
+      "group": "related"
+    },
+    {
+      "term": "garbage in, garbage out",
+      "group": "related"
+    },
+    {
+      "term": "Graphics Interchange Format",
+      "group": "weak"
+    },
+    {
+      "term": "gigabyte",
+      "group": "related"
+    },
+    {
+      "term": "global variable",
+      "group": "related"
+    },
+    {
+      "term": "graph theory",
+      "group": "related"
+    },
+    {
+      "term": "handle",
+      "group": "weak"
+    },
+    {
+      "term": "hard problem",
+      "group": "weak"
+    },
+    {
+      "term": "hash function",
+      "group": "core"
+    },
+    {
+      "term": "hash table",
+      "group": "core"
+    },
+    {
+      "term": "heap",
+      "group": "related"
+    },
+    {
+      "term": "heapsort",
+      "group": "core"
+    },
+    {
+      "term": "human-computer interaction",
+      "group": "core"
+    },
+    {
+      "term": "identifier",
+      "group": "weak"
+    },
+    {
+      "term": "IDE",
+      "group": "related"
+    },
+    {
+      "term": "image processing",
+      "group": "core"
+    },
+    {
+      "term": "imperative programming",
+      "group": "core"
+    },
+    {
+      "term": "incremental build model",
+      "group": "related"
+    },
+    {
+      "term": "information space analysis",
+      "group": "weak"
+    },
+    {
+      "term": "information visualization",
+      "group": "core"
+    },
+    {
+      "term": "inheritance",
+      "group": "weak"
+    },
+    {
+      "term": "input/output",
+      "group": "core"
+    },
+    {
+      "term": "insertion sort",
+      "group": "related"
+    },
+    {
+      "term": "instruction cycle",
+      "group": "related"
+    },
+    {
+      "term": "integer",
+      "group": "weak"
+    },
+    {
+      "term": "integrated development environment",
+      "group": "core"
+    },
+    {
+      "term": "integration testing",
+      "group": "related"
+    },
+    {
+      "term": "intellectual property",
+      "group": "related"
+    },
+    {
+      "term": "intelligent agent",
+      "group": "core"
+    },
+    {
+      "term": "interface",
+      "group": "related"
+    },
+    {
+      "term": "internal documentation",
+      "group": "related"
+    },
+    {
+      "term": "internet",
+      "group": "related"
+    },
+    {
+      "term": "internet bot",
+      "group": "core"
+    },
+    {
+      "term": "interpreter",
+      "group": "related"
+    },
+    {
+      "term": "invariant",
+      "group": "weak"
+    },
+    {
+      "term": "iteration",
+      "group": "related"
+    },
+    {
+      "term": "Java",
+      "group": "related"
+    },
+    {
+      "term": "kernel",
+      "group": "related"
+    },
+    {
+      "term": "library (computing)",
+      "group": "core"
+    },
+    {
+      "term": "linear search",
+      "group": "related"
+    },
+    {
+      "term": "linked list",
+      "group": "core"
+    },
+    {
+      "term": "linker",
+      "group": "core"
+    },
+    {
+      "term": "list",
+      "group": "weak"
+    },
+    {
+      "term": "loader",
+      "group": "related"
+    },
+    {
+      "term": "logic error",
+      "group": "weak"
+    },
+    {
+      "term": "logic programming",
+      "group": "core"
+    },
+    {
+      "term": "machine learning",
+      "group": "core"
+    },
+    {
+      "term": "machine vision",
+      "group": "core"
+    },
+    {
+      "term": "mathematical logic",
+      "group": "core"
+    },
+    {
+      "term": "matrix",
+      "group": "related"
+    },
+    {
+      "term": "memory",
+      "group": "weak"
+    },
+    {
+      "term": "merge sort",
+      "group": "related"
+    },
+    {
+      "term": "method",
+      "group": "weak"
+    },
+    {
+      "term": "methodology",
+      "group": "related"
+    },
+    {
+      "term": "modem",
+      "group": "core"
+    },
+    {
+      "term": "natural language processing",
+      "group": "core"
+    },
+    {
+      "term": "node",
+      "group": "related"
+    },
+    {
+      "term": "number theory",
+      "group": "related"
+    },
+    {
+      "term": "numerical analysis",
+      "group": "core"
+    },
+    {
+      "term": "numerical method",
+      "group": "core"
+    },
+    {
+      "term": "object",
+      "group": "weak"
+    },
+    {
+      "term": "object code",
+      "group": "core"
+    },
+    {
+      "term": "object-oriented analysis and design",
+      "group": "weak"
+    },
+    {
+      "term": "object-oriented programming",
+      "group": "core"
+    },
+    {
+      "term": "open-source software",
+      "group": "core"
+    },
+    {
+      "term": "operating system",
+      "group": "core"
+    },
+    {
+      "term": "optical fiber",
+      "group": "core"
+    },
+    {
+      "term": "pair programming",
+      "group": "related"
+    },
+    {
+      "term": "parallel computing",
+      "group": "core"
+    },
+    {
+      "term": "parameter",
+      "group": "weak"
+    },
+    {
+      "term": "peripheral",
+      "group": "related"
+    },
+    {
+      "term": "pointer",
+      "group": "core"
+    },
+    {
+      "term": "postcondition",
+      "group": "related"
+    },
+    {
+      "term": "precondition",
+      "group": "related"
+    },
+    {
+      "term": "primary storage",
+      "group": "related"
+    },
+    {
+      "term": "primitive data type",
+      "group": "weak"
+    },
+    {
+      "term": "priority queue",
+      "group": "core"
+    },
+    {
+      "term": "procedural programming",
+      "group": "core"
+    },
+    {
+      "term": "Procedural generation",
+      "group": "related"
+    },
+    {
+      "term": "procedure",
+      "group": "weak"
+    },
+    {
+      "term": "program lifecycle phase",
+      "group": "related"
+    },
+    {
+      "term": "programming language",
+      "group": "core"
+    },
+    {
+      "term": "programming language implementation",
+      "group": "core"
+    },
+    {
+      "term": "programming language theory",
+      "group": "core"
+    },
+    {
+      "term": "Prolog",
+      "group": "core"
+    },
+    {
+      "term": "Python",
+      "group": "core"
+    },
+    {
+      "term": "quantum computing",
+      "group": "core"
+    },
+    {
+      "term": "queue",
+      "group": "core"
+    },
+    {
+      "term": "quicksort",
+      "group": "core"
+    },
+    {
+      "term": "R programming language",
+      "group": "core"
+    },
+    {
+      "term": "radix",
+      "group": "core"
+    },
+    {
+      "term": "record",
+      "group": "weak"
+    },
+    {
+      "term": "recursion",
+      "group": "core"
+    },
+    {
+      "term": "reference",
+      "group": "weak"
+    },
+    {
+      "term": "reference counting",
+      "group": "core"
+    },
+    {
+      "term": "regression testing",
+      "group": "core"
+    },
+    {
+      "term": "relational database",
+      "group": "core"
+    },
+    {
+      "term": "reliability engineering",
+      "group": "related"
+    },
+    {
+      "term": "requirements analysis",
+      "group": "related"
+    },
+    {
+      "term": "robotics",
+      "group": "core"
+    },
+    {
+      "term": "round-off error",
+      "group": "weak"
+    },
+    {
+      "term": "router",
+      "group": "core"
+    },
+    {
+      "term": "routing table",
+      "group": "core"
+    },
+    {
+      "term": "run time",
+      "group": "core"
+    },
+    {
+      "term": "run time error",
+      "group": "core"
+    },
+    {
+      "term": "search algorithm",
+      "group": "core"
+    },
+    {
+      "term": "secondary storage",
+      "group": "related"
+    },
+    {
+      "term": "selection sort",
+      "group": "core"
+    },
+    {
+      "term": "semantics",
+      "group": "related"
+    },
+    {
+      "term": "sequence",
+      "group": "weak"
+    },
+    {
+      "term": "serializability",
+      "group": "core"
+    },
+    {
+      "term": "serialization",
+      "group": "core"
+    },
+    {
+      "term": "server",
+      "group": "weak"
+    },
+    {
+      "term": "service level agreement",
+      "group": "related"
+    },
+    {
+      "term": "set",
+      "group": "weak"
+    },
+    {
+      "term": "software",
+      "group": "core"
+    },
+    {
+      "term": "software agent",
+      "group": "core"
+    },
+    {
+      "term": "software construction",
+      "group": "core"
+    },
+    {
+      "term": "software deployment",
+      "group": "core"
+    },
+    {
+      "term": "software design",
+      "group": "core"
+    },
+    {
+      "term": "software development",
+      "group": "core"
+    },
+    {
+      "term": "software development process",
+      "group": "related"
+    },
+    {
+      "term": "software engineering",
+      "group": "core"
+    },
+    {
+      "term": "software maintenance",
+      "group": "core"
+    },
+    {
+      "term": "software prototyping",
+      "group": "core"
+    },
+    {
+      "term": "software requirements specification",
+      "group": "core"
+    },
+    {
+      "term": "software testing",
+      "group": "core"
+    },
+    {
+      "term": "sorting algorithm",
+      "group": "core"
+    },
+    {
+      "term": "source code",
+      "group": "core"
+    },
+    {
+      "term": "spiral model",
+      "group": "related"
+    },
+    {
+      "term": "stack",
+      "group": "core"
+    },
+    {
+      "term": "state",
+      "group": "weak"
+    },
+    {
+      "term": "statement",
+      "group": "weak"
+    },
+    {
+      "term": "storage",
+      "group": "related"
+    },
+    {
+      "term": "stream",
+      "group": "weak"
+    },
+    {
+      "term": "string",
+      "group": "weak"
+    },
+    {
+      "term": "structured storage",
+      "group": "related"
+    },
+    {
+      "term": "subroutine",
+      "group": "core"
+    },
+    {
+      "term": "symbolic computation",
+      "group": "related"
+    },
+    {
+      "term": "syntax",
+      "group": "core"
+    },
+    {
+      "term": "syntax error",
+      "group": "core"
+    },
+    {
+      "term": "system console",
+      "group": "core"
+    },
+    {
+      "term": "technical documentation",
+      "group": "core"
+    },
+    {
+      "term": "third-generation programming language",
+      "group": "related"
+    },
+    {
+      "term": "top-down and bottom-up design",
+      "group": "weak"
+    },
+    {
+      "term": "tree",
+      "group": "weak"
+    },
+    {
+      "term": "type theory",
+      "group": "core"
+    },
+    {
+      "term": "upload",
+      "group": "related"
+    },
+    {
+      "term": "Uniform Resource Locator",
+      "group": "core"
+    },
+    {
+      "term": "user",
+      "group": "weak"
+    },
+    {
+      "term": "user agent",
+      "group": "core"
+    },
+    {
+      "term": "user interface",
+      "group": "core"
+    },
+    {
+      "term": "user interface design",
+      "group": "core"
+    },
+    {
+      "term": "variable",
+      "group": "weak"
+    },
+    {
+      "term": "virtual machine",
+      "group": "core"
+    },
+    {
+      "term": "V-Model",
+      "group": "related"
+    },
+    {
+      "term": "waterfall model",
+      "group": "related"
+    },
+    {
+      "term": "Waveform Audio File Format",
+      "group": "related"
+    },
+    {
+      "term": "web crawler",
+      "group": "core"
+    },
+    {
+      "term": "Wi-Fi",
+      "group": "core"
+    },
+    {
+      "term": "XHTML",
+      "group": "core"
+    }
+  ]
+}
