@@ -211,7 +211,7 @@ def parse_sections_and_paragraphs(text: str) -> Iterable[Tuple[List[str], int, s
 
 
 def main(
-    input_path: str = "data/processed/wiki_cs_articles_v3.jsonl",
+    input_path: str = "data/processed/third_round/wiki_cs_articles_v3.jsonl",
     output_path: str = "data/processed/corpus_chunks_filtered.jsonl",
     source_name: str = "enwiki_pages_articles_latest",
     max_articles: Optional[int] = None,
